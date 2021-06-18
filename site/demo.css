@@ -1,5 +1,32 @@
-.body{
-    background-image: url();
+body{
+background-image: url(bg2.jpg);
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: #141e66;
+    width: 1520px;
+    height: 60px;
+}
+.ind{
+  max-width: 30%;
+  max-height: 30%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.eng{
+  max-width: 30%;
+  max-height: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.rus{
+  max-width: 30%;
+  max-height: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 @media only screen and (max-width:800px) {
   /* For tablets: */
